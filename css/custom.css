@@ -1,0 +1,5 @@
+.effect1, .effect2 {
+    transform: perspective(200px);
+    text-align: center;
+    font-size: 4em;
+}
