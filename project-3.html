@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
+  <link rel="stylesheet" href="css/bootstrap-reboot.css" />
+  <link rel="stylesheet" href="css/bootstrap-utilities.css" />
+  <link rel="stylesheet" href="css/custom.css" />
+  <style type="text/css">
+      body {
+        background-color: #dfe0e1;
+      }
+      .text-heading {
+        position: absolute;
+        top: 30%;
+        width: 100%;
+        z-index: 99;
+        overflow: hidden;
+      }
+      .text-span {
+        display: inline-block;
+        transform: translateY(100%);
+      }
+      #img-container {
+        position: absolute;
+        top: 20%;
+        right: 30%;
+        display: block;
+        width: 200px;
+        height: 500px;
+        overflow: hidden;
+      }
+      .img-inner {
+        width: 100%;
+        height: 100%;
+        display: inline-block;
+        background-color: #bb2d3b;
+        transform: translateY(100%);
+      }
+  </style>
+  <title>GSAP | Project 2
+  </title>
+</head>
+<body>
+<div class="px-4 pt-5 my-5 border-bottom">
+  <h1 class="display-4 fw-bold text-heading"><span class="text-span">Text and Background image animation (Nested)</span></h1>
+  <div id="img-container">
+    <div class="img-inner"></div>
+  </div>
+
+</div>
+<div class="b-example-divider"></div>
+</body>
+<script src="js/bootstrap.bundle.js"></script>
+<script src="js/gsap.min.js"></script>
+<script src="js/project-three.js"></script>
+<script src="js/custom.js"></script>
+</html>
